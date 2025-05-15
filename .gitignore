@@ -1,0 +1,97 @@
+# ---------------------------------
+# General Node / JavaScript
+# ---------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# ---------------------------------
+# Expo
+# ---------------------------------
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# ---------------------------------
+# React Native (Metro)
+# ---------------------------------
+.metro-cache/
+metro-cache/
+.metro-health-check*
+
+# ---------------------------------
+# Android
+# ---------------------------------
+android/.gradle/
+android/app/build/
+android/build/
+*.iml
+.gradle/
+local.properties
+
+# ---------------------------------
+# iOS
+# ---------------------------------
+ios/Pods/
+ios/build/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcuserstate
+*.xcuserdatad*
+*.xcscmblueprint
+DerivedData/
+
+# ---------------------------------
+# macOS
+# ---------------------------------
+.DS_Store
+
+# ---------------------------------
+# IDE / Editor settings
+# ---------------------------------
+.vscode/
+.idea/
+*.iml
+
+# ---------------------------------
+# Environment and Credentials
+# ---------------------------------
+.env
+.env.*.local
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# ---------------------------------
+# TypeScript
+# ---------------------------------
+*.tsbuildinfo
+
+# ---------------------------------
+# Misc
+# ---------------------------------
+*.orig.*
+.prettiercache
+eslintcache
+
+# ---------------------------------
+# Fastlane (deployment tool)
+# ---------------------------------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# ---------------------------------
+# Custom
+# ---------------------------------
+app-example
+
