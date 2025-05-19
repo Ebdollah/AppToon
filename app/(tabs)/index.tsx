@@ -1,3 +1,4 @@
+import PosterCard from '@/components/PosterCard';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function HomeScreen() {
@@ -5,6 +6,7 @@ export default function HomeScreen() {
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text style={{ fontSize: 24, fontWeight: 'bold' }}>Welcome to the App!</Text>
       <Text>Start exploring the app to see its features.</Text>
+      <PosterCard />
     </View>
   );
 }
