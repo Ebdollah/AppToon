@@ -1,14 +1,11 @@
-import { StyleSheet } from 'react-native';
-
-
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function TabTwoScreen() {
   return (
-    <div style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <h1>Welcome to the Explore Tab!</h1>
-      <p>Start exploring the app to see its features.</p>
-      
-    </div>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text style={{ fontSize: 24, fontWeight: 'bold' }}>Welcome to the Explore Tab!</Text>
+      <Text>Start exploring the app to see its features.</Text>
+    </View>
   );
 }
 
